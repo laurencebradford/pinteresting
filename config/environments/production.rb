@@ -82,5 +82,5 @@ Rails.application.configure do
 
   # required for heroku
   # note to set this to your actual host
-  config.action_mailer.default_url_options = { host: => 'omr-laurenceb.herokuapp.com'}
+  config.action_mailer.default_url_options = { host: 'http://omr-laurenceb.herokuapp.com/'}
 end
